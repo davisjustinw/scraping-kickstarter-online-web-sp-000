@@ -1,6 +1,7 @@
 require 'nokogiri'
 require 'pry'
 
+class KickstartScraper
 def create_project_hash
   html = File.read('fixtures/kickstarter.html')
  
